@@ -1,0 +1,166 @@
+:root {
+    font-family: sans-serif;
+}
+.banner-img {
+    height: 288px;
+    width: 512px;
+}
+
+.info-img{
+    height: 150px;
+    width: 150px;
+    border: 4px #3882f6 solid;
+    border-radius: 8px;
+
+}
+
+.font-s18px {
+    font-size: 18px;
+}
+.font-s24 {
+    font-size: 24px;
+}
+.font-s36{
+    font-size: 36px;
+}
+
+.font-s48 {
+    font-size: 48px;
+}
+
+.font-cd {
+    color: #1f2937;
+}
+
+.font-cg {
+    color: #e5e7eb;
+}
+
+.font-cw {
+    color: #f9faf8;
+}
+
+.font-l-i {
+    font-weight: light;
+    font-style: italic;
+}
+.font-ex-bl {
+    font-weight: extra-bold;
+}
+.dark-bg {
+    background-color: #1f2937;
+}
+
+.blue-bg {
+    background-color: #3882f6;
+}
+
+.grey-bg {
+    background-color: #e5e7eb;
+}
+
+.marg-0 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.information {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 1 0 auto;
+    width: 150px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 8%;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+    
+.banner{
+    display: flex;
+    padding: 8% 8%;
+}
+
+.banner-text {
+    padding: 12px;
+}
+
+.banner-button {
+    border: 2px #1f2937 solid;
+}
+
+.banner-img-box {
+    padding: 12px;
+}
+
+.information {
+    padding: 0 0 4%;
+}
+.info-header {
+    padding: 2% 8%;
+}
+
+.quotation {
+    width: 70%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sayer {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    width: 70%;
+    gap: 2%;
+    margin: 42px auto;
+    border-radius: 8px;
+    padding: 32px 6%;
+    align-items: center;
+    display: flex;
+}
+
+.call-to-time {
+    flex: 1 1 auto;
+}
+
+.call-to-button{
+    border: 2px #e5e7eb solid;
+    flex-grow: 0;
+}
+
+footer {
+    padding: 18px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
